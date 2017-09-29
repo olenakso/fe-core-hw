@@ -94,11 +94,12 @@
     height : 114px;
     }
 
-    
-    .first list {
+
+    .first {
     display : inline-block;
     width : 159px;
     height : 143px;
     margin-right : -4px;
+    margin-top: 41px;
     }
 
