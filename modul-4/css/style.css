@@ -1,0 +1,234 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-image: url('../pictures/bground.jpg');
+      
+}
+
+.wrapper{
+    width: 980px;
+    margin: auto;
+    border : #898b90 solid 1px;
+    text-align : left;
+    padding :  110px 64px 88px 59px;    
+    background-color: white;
+    
+    }
+
+
+.float{
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #424040;
+    padding-bottom: 52px;
+       
+}
+
+.top{
+   
+   width: 650px;
+   float: left;
+   
+   }
+
+   .inner-box {            
+   
+    width : 214px;  
+    float: right; 
+           
+    }   
+    
+    
+.secfloat{
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    
+    }
+
+.floa{
+    width: 214px;
+    float: right;
+    
+   }  
+   
+        
+   .content {        
+    width : 650px;
+    float: left;
+    
+    }   
+
+
+.list{
+    margin-top: 48px;
+    }
+ol{
+    list-style: none;
+}
+ol li{       
+    padding-bottom: 18px;
+    padding-top: 1px;
+    margin-top: 0px;
+}
+        
+h3{
+     padding-top: -4px;
+     text-align: left;
+     padding-left: 39px;
+     padding-bottom: 0px;
+}
+
+ ol li:nth-of-type(n)::before {
+    content: url('../pictures/q1.png');  
+    float: left;
+       }
+
+ ol li:nth-of-type(2n)::before {
+    content: url('../pictures/q2.png');   
+   }
+  
+ ol li:nth-of-type(3n)::before {
+    content: url('../pictures/q3.png');   
+   }   
+
+  
+li p{
+        
+    text-align: left;
+    padding-left: 39px;
+ 
+} 
+
+
+
+
+.style {
+    font-size : 19px;
+    font-weight : bold;
+    font-family : Arial;
+    line-height : 19px;
+    color: #676f81;
+    margin-bottom: 20px;
+        }
+     
+        
+
+    
+.test{
+    width: 211px;
+    border: 1px solid #e9e6e6;
+    margin-top: 24px;
+    margin-bottom: 66px;
+    padding: 24px;
+    }
+
+    .test p::before{
+        content: "“"
+    }
+    
+    .test p::after{
+        content: "”"
+    }    
+
+.centr{
+    text-align: center;
+    width: 214px;
+    }
+
+
+
+
+   
+    ul{
+        padding: 0;
+        width: 500px;
+        overflow: hidden;
+        list-style : none;
+    }
+
+    ul li {
+    
+        width: 50%;
+        display: inline-block;
+        font-size : 15px;
+        font-weight : bold;
+        font-family : Arial;
+        float: left;
+        line-height: 22.8px;
+    
+    }
+
+    ul li:before {
+        content: "→";
+        color: #38afe5;
+        display: inline-block;
+        margin-right: 17px;
+
+    } 
+  
+
+ h1 {
+    font-size : 25px;
+    font-style : normal;
+    font-family : Pathway Gothic One;
+    line-height : 19px; 
+    margin-bottom: 49px;
+    color: #263555;
+        }
+
+h2 {
+    font-size : 25px;
+    font-style : normal;
+    font-family : Pathway Gothic One;
+    line-height : 19px;
+    margin-bottom: 23px;
+    margin-top: 49px;
+    }
+
+    
+
+p {
+    font-size : 13px;
+    font-weight : normal;
+    font-family : Arial;
+    line-height : 19px;
+    color: #4e5050;
+    }
+
+img {
+    margin-bottom: 25px;
+    float: left;
+    margin-right: 25px;
+    }
+
+span{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #263555;
+
+
+
+
+ 
+
+
+                     
+
+
+ /*нумерованый список*/
+
+                
+                
+
+            
+    /*ненумерованый список*/  
+    
+    
+      
