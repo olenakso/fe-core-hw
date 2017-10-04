@@ -34,10 +34,10 @@ body{
  }
 
 .top{
-   display: inline-block;
+   
    width: 650px;
    float: left; 
-   margin: -4px;  
+   
    }
 
    .top::after{
@@ -49,16 +49,16 @@ body{
 
 
    .inner-box {            
-    display: inline-block;
+    
     width : 214px;  
     float: right; 
-    margin: -4px;
-               
+                  
     }   
     
     
 .secfloat{
     width: 900px;
+    margin-top: 55px;
    
     
     }
@@ -218,7 +218,7 @@ h2 {
     font-family : Pathway Gothic One;
     line-height : 19px;
     margin-bottom: 23px;
-    margin-top: 49px;
+    
     }
 
     
