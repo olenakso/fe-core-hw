@@ -361,7 +361,10 @@ a:hover {
     max-width: 768px;
     width: 100%;
 }
-
+.container{
+    max-width: 768px;
+    width: 100%;
+}
 .head{
     max-width: 291px;
     width: 100%;
@@ -436,7 +439,10 @@ a:hover {
     max-width: 480px;
     width: 100%;
 }
-
+.container{
+    max-width: 480px;
+    width: 100%;
+}
 .head{
     max-width: 227px;
     width: 100%;
