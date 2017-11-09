@@ -5,10 +5,12 @@
 
 body{
     background: url(../img/bground.jpg) no-repeat;
-    
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;    
     width: 100vw;
-    height: 100vh;
-}
+   
+   }
 
 .content{
     background-color: #fff;
@@ -43,8 +45,7 @@ h1{
     text-transform: uppercase;
     color: #263555;  
     font-size: 2rem; 
-} 
-
+}
 
 .wrap{
     margin: auto;
@@ -63,7 +64,6 @@ h1{
     text-transform: uppercase;    
     text-align: center;    
 }
-
 
 .menu{
     display: flex;
@@ -88,7 +88,6 @@ a{
 a:hover{
     color:#384869;
 }
-
 
 .submenu{    
     position: absolute;
@@ -244,11 +243,12 @@ a:hover{
     margin-right: 10px;
 }
 
-
 .bottom1{     
     position: fixed;
-    left: 82%;
-    top: 93%;
+    /*left: 82%;*/
+    /*top: 93%;*/
+    right: 150px;
+    bottom: 150px;
     width: 29px;
     height: 29px;
     background-color: #38afe5;
@@ -330,13 +330,12 @@ a:hover{
 
 /*content*/
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:1023px){
     
 .content{
     max-width: 768px;
     width: 100%;
 }
-
 
 .flax{
     width: 100%;
@@ -351,8 +350,7 @@ img{
         }
 h1{
     font-size: 1.75rem;
-}    
-
+}  
          
 .bottom1{     
     left: 85%;
@@ -360,7 +358,7 @@ h1{
  }
     }
 
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width:480px) and (max-width:767px){
 
 .content{
     max-width: 480px;
@@ -377,7 +375,7 @@ h1{
 
 img{
     width: 100%;
-    /*height: auto;  */
+    height: auto;  
 }        
 
 img:nth-of-type(9){
@@ -405,7 +403,7 @@ h1{
 
 /*footer*/
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:1023px){
 
 .footer{
     max-width: 768px;
@@ -451,7 +449,7 @@ p{
 }        
 }
 
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width:480px) and (max-width:767px){
 
 .footer{
     max-width: 480px;
@@ -535,7 +533,7 @@ p{
 
    /*header*/
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:1023px){
     
 .wrap{
     max-width: 768px;
@@ -563,10 +561,19 @@ p{
 
 .item:nth-of-type(n+4){
     padding-top: 25px;
+    
 }
 
 .item:nth-of-type(3){
     padding-right: 0;
+}
+
+.item:nth-of-type(4){
+    padding-top: 0;
+    padding-right: 0;
+}
+.item:nth-of-type(7){
+      padding-right: 6px;
 }
 
 .submenu{
@@ -595,16 +602,15 @@ p{
     font-size: 43px;
     line-height: 100px;
     position: absolute;    
-    right: 130px;
+    right: 110px;
     bottom: 40px;    
 }
 
 }
     
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width:480px) and (max-width:767px){
             
 .wrap{
-
     max-width: 480px;
     width: 100%;
 }
@@ -636,6 +642,14 @@ p{
     padding-right: 0;
 }
 
+.item:nth-of-type(4){
+    
+     padding-right: 5px;
+}
+.item:nth-of-type(7){
+      padding-right: 10px;
+}
+
 .submenu{
     max-width: 48px;
     width: 100%;
@@ -662,7 +676,7 @@ p{
     font-size: 33px;
     line-height: 77px;
     position: absolute;                
-    right: 100px;
+    right: 90px;
     bottom: 40px; 
 }
 
