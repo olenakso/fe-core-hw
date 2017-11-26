@@ -3,7 +3,6 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    width: 100vw;
 }
 @media (-webkit-min-device-pixel-ratio: 2),
 (-o-min-device-pixel-ratio: 2/1),
@@ -80,7 +79,7 @@ h1 {
     color: #263555;
     font-size: 2rem;
 }
-.wrap {
+.wrapper {
     margin: auto;
     max-width: 1024px;
     width: 100%;
@@ -172,14 +171,7 @@ a:hover {
     border-radius: 50%;
     font-size: 59px;
 }
-.wrapper {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 1020px;
-    background-color: #fff;
-    margin: auto;
-}
-.footer {
+.bottom-menu {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     max-width: 1024px;
@@ -308,10 +300,7 @@ a:hover {
 }
 .bottom1 {
     position: fixed;
-    /*left: 82%;*/
-    /*top: 93%;*/
-    
-    right: 150px;
+    right:20px;
     bottom: 150px;
     width: 29px;
     height: 29px;
@@ -329,7 +318,7 @@ a:hover {
 }
 /*sprite*/
 
-.wrapper1 {
+.footer {
     width: 1020px;
     margin: 20px auto;
     display: -webkit-box;
@@ -337,7 +326,7 @@ a:hover {
     display: -ms-flexbox;
     display: flex;
 }
-.nav1 {
+.social-links {
     margin: auto;
     width: 203px;
     padding: 0;
@@ -357,13 +346,13 @@ a:hover {
     -ms-flex-align: center;
     align-items: center;
 }
-.nav1__item1 {
+.social-links__item1 {
     width: 40px;
     height: 40px;
     padding: 10px;
 }
 .icon {
-    width: 12px;
+    width: 19px;
     height: 12px;
     fill: #e3b062;
     background-color: #fff;
@@ -377,7 +366,7 @@ a:hover {
     display: none;
     height: 5px;
 }
-.text {
+.copywriting {
     width: 1020px;
     margin: 20px auto;
     color: #fff;
@@ -385,4 +374,3 @@ a:hover {
     font-size: 12px;
     text-align: center;
 }
-/*content*/
